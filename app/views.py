@@ -4,7 +4,7 @@ from django.shortcuts import render
 
 
 def data_render(request):
-    d={'name':'harshini','age':23}
+    d={'name':'harshini','age':23,'hobbies':['dancing','singing','painting','drawing']}
     return render(request,'data_render.html',context=d)
 
 
